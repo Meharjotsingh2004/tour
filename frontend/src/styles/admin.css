@@ -1,0 +1,176 @@
+.admin-dashboard {
+    --primary-color: #4a90e2;
+    --secondary-color: #50c878;
+    --accent-color: #f39c12;
+    --danger-color: #e74c3c;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+    --card-background: #ffffff;
+    --border-color: #e0e0e0;
+  
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .admin-dashboard h1,
+  .admin-dashboard h2,
+  .admin-dashboard h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+  }
+  
+  .admin-dashboard .alert {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard .form-group label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .admin-dashboard .form-control {
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    padding: 0.75rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .admin-dashboard .form-control:focus.admin-dashboard .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+  }
+  
+  .admin-dashboard .btn {
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .admin-dashboard .btn-info {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .admin-dashboard .btn-success {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+  
+  .admin-dashboard .btn-warning {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  
+  .admin-dashboard .btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+  }
+  
+  .admin-dashboard .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard .booking-table {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .admin-dashboard .booking-table th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem;
+  }
+  
+  .admin-dashboard .booking-table td {
+    padding: 1rem;
+    vertical-align: middle;
+  }
+  
+  .admin-dashboard .booking-table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .admin-dashboard .pagination {
+    margin-top: 2rem;
+  }
+  
+  .admin-dashboard .page-link {
+    color: var(--primary-color);
+    border-color: var(--border-color);
+  }
+  
+  .admin-dashboard .page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .admin-dashboard .modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard .modal-header {
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom: none;
+  }
+  
+  .admin-dashboard .modal-title {
+    font-weight: 600;
+  }
+  
+  .admin-dashboard .modal-body {
+    padding: 2rem;
+  }
+  
+  .admin-dashboard .modal-footer {
+    border-top: none;
+  }
+  
+  @media (max-width: 768px) {
+    .admin-dashboard .btn {
+      margin-bottom: 0.5rem;
+    }
+  
+    .admin-dashboard .booking-table {
+      font-size: 0.9rem;
+    }
+  
+    .admin-dashboard .booking-table th,
+    .admin-dashboard .booking-table td {
+      padding: 0.75rem 0.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .admin-dashboard h1 {
+      font-size: 2rem;
+    }
+  
+    .admin-dashboard h2 {
+      font-size: 1.75rem;
+    }
+  
+    .admin-dashboard h3 {
+      font-size: 1.5rem;
+    }
+  
+    .admin-dashboard .booking-table {
+      font-size: 0.8rem;
+    }
+  
+    .admin-dashboard .booking-table th,
+    .admin-dashboard .booking-table td {
+      padding: 0.5rem 0.25rem;
+    }
+  }
+  
+  
